@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title> EEMPA N°1328 Alicia López </title>
+</head>
+<body>
+    <header class="header">
+        <input type="checkbox" class="header__checkbox" id="open-menu">
+        <label for="open-menu" class="header__open-nav-button" role="button"> v </label>
+    <div class="header__logo-container">
+        <img class="header__logo" src="img/eempalogo.png">
+    </div>
+    <nav class="header__nav"> 
+        <ul class="header__nav-list">
+            <li class="header__nav-item"><a href="#"> Inicio </a></li>
+            <li class="header__nav-item"><a href="#"> Dirección </a></li>
+            <li class="header__nav-item"><a href="#"> Primer Año </a></li>
+            <li class="header__nav-item"><a href="#"> Segundo Año </a></li>
+            <li class="header__nav-item"><a href="#"> Cuarto Año </a></li> 
+        </ul>
+    </nav>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('.header');
+            if (window.scrollY > 10) {  // Ajusta el valor 10px según necesites
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
+    
+    </header>
+    <main class="main" id="main">
+        <div class="main__img-container"> </div> <!-- banner -->
+        <div class="main__wrapper">
+            <!-- capa utilizada para trabajar en css -->
+            <div class="main__data-container">
+                <div class="main__data">
+                    <div class="main__description">
+                        <h1 class="main__title"> EEMPA N°1328 "Alicia López" </h1>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate voluptas ullam dolore fugit neque ipsum blanditiis provident dicta aspernatur totam sint, culpa, expedita modi magni aut id consequatur voluptates suscipit?
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate voluptas ullam dolore fugit neque ipsum blanditiis provident dicta aspernatur totam sint, culpa, expedita modi magni aut id consequatur voluptates suscipit?
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate voluptas ullam dolore fugit neque ipsum blanditiis provident dicta aspernatur totam sint, culpa, expedita modi magni aut id consequatur voluptates suscipit?
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate voluptas ullam dolore fugit neque ipsum blanditiis provident dicta aspernatur totam sint, culpa, expedita modi magni aut id consequatur voluptates suscipit?
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate voluptas ullam dolore fugit neque ipsum blanditiis provident dicta aspernatur totam sint, culpa, expedita modi magni aut id consequatur voluptates suscipit?
+
+                        </p>
+                    </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- NOTICIAS -->
+
+    <section class="novedades" id="novedades">
+        <h2 class="novedades__title">Novedades</h2>
+        <div class="novedades__noticia-container">
+            <div class="novedades__noticia">
+                <h2 class="novedades__noticia-nombre"> Inscripciones a Examenes </h2>
+            </div>
+            <div class="novedades__noticia">
+                <h2 class="novedades__noticia-nombre"> Noticia 2 </h2>
+            </div>
+            <div class="novedades__noticia">
+                <h2 class="novedades__noticia-nombre"> Noticia 3 </h2>
+            </div>
+
+        </div>
+    </section>
+    <!-- CRONOGRAMA -->
+    <section class="cronograma" id="cronograma">
+        <h2 class="cronograma__title"> Cronograma </h2>
+        <div class="cronograma__container">
+            <div class="cronograma__card">
+                <img src="img/eempalogo.png">
+                <div class="cronograma__card-content">
+                    <h3 class="cronograma__card-title"> Fecha 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur provident, debitis consectetur aperiam ducimus suscipit aliquid laudantium doloribus rem architecto laborum quos maiores harum temporibus incidunt beatae nisi. Numquam, quaerat.</p>
+                    <a href="#" class="btn">Leer Mas</a>
+                </div>
+            </div>
+            <div class="cronograma__card">
+                <img src="img/eempalogo.png" class="card__img">
+                <div class="cronograma__card-content">
+                    <h3 class="cronograma__card-title"> Fecha 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur provident, debitis consectetur aperiam ducimus suscipit aliquid laudantium doloribus rem architecto laborum quos maiores harum temporibus incidunt beatae nisi. Numquam, quaerat.</p>
+                    <a href="#" class="btn">Leer Mas</a>
+                </div>
+            </div>
+            <div class="cronograma__card">
+                <img src="img/eempalogo.png">
+                <div class="cronograma__card-content">
+                    <h3 class="cronograma__card-title"> Fecha 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur provident, debitis consectetur aperiam ducimus suscipit aliquid laudantium doloribus rem architecto laborum quos maiores harum temporibus incidunt beatae nisi. Numquam, quaerat.</p>
+                    <a href="#" class="btn">Leer Mas</a>
+                </div>
+            </div>
+            <div class="cronograma__card">
+                <img src="img/eempalogo.png">
+                <div class="cronograma__card-content">
+                    <h3 class="cronograma__card-title"> Fecha 4</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur provident, debitis consectetur aperiam ducimus suscipit aliquid laudantium doloribus rem architecto laborum quos maiores harum temporibus incidunt beatae nisi. Numquam, quaerat.</p>
+                    <a href="#" class="btn">Leer Mas</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="propuesta" id="propuesta">
+        <div class="propuesta__container">
+            <h3 class="propuesta__container-title"> Propuesta Académica </h3>
+            <div class="propuesta__item">
+                <h2 class="propuesta__item-nombre"> Propuesta 1 </h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="form" id="contacto"> <!-- esto lo tengo que pasar a la pastaña de dirección igual despues... -->
+        <h2 class="form__title"> Contacto </h2>
+        <form class="form__form"> 
+            <div class="form__input-container">
+                <label> Nombre
+                    <input type="text" placeholder="Tomás Velzi">
+                </label>
+            </div>
+            <div class="form__input-container">
+                <label> E-mail
+                    <input type="email" placeholder="tomas@gmail.com">
+                </label>
+            </div>
+            <div class="form__input-container">
+                <label for = "mensaje "> Mensaje </label>
+                <textarea rows="5" maxlength="300" placeholder="Deja tu mensaje"> </textarea> 
+                <!-- LA PROPIEDAD READONLY ES PARA QUE SOLO SE PUEDA LEER, NO MODIFICAR, si pongo disabled no se puede enfocar el campo y no se envía el dato, rows es la cant de lineas que puede escribir el usuario -->
+            </div>
+            <div class="form__input-container">
+                <input type="submit">
+            </div>
+        </form>
+    </section>
+    <footer>
+        Tomás Velzi - Copyright
+    </footer>
+</body>
+</html>
